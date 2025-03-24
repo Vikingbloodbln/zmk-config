@@ -56,13 +56,13 @@
 
         raise_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |       |     |     |      |      |      |                   |      |       |       |      |       |       |
+// |       |     |     |      |      |      |                   |      |       |       |      |       |  DEL  |
 // |       |     |  ^  |      |      |      |                   |      |       |       |      |       |       |
 // |       |  <- |  v  |  ->  |      |      |                   |      |       |       |      |       |       |
 // |       |     |     |      |      |      |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
+&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &kp DEL
 &trans    &trans &kp UP &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &kp PAGE_UP    &trans
 &trans    &kp LEFT &kp DOWN &kp RIGHT  &trans  &trans                &trans      &trans    &trans    &trans   &kp PAGE_DOWN    &trans
 &trans    &trans &trans &trans &trans &trans   &trans   &trans    &kp KP_PLUS &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH
